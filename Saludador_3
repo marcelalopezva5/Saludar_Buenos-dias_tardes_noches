@@ -1,0 +1,20 @@
+# Te pregunta que hora es
+# y te dice buenos dias, tardes o noches
+# de acuerdo con la hora
+def saludador_3():
+    hora=int(input("Dime que hora es: "))
+    if(hora<=0 or hora>=24):
+        print("Hora erronea")
+    else:
+        if(hora>=6 and hora<=12):
+            print("Buenos dias Marceluki")
+        else: 
+            if(hora>12 and hora<20):
+                print("Bunas tardes Marceluki")
+            else:
+                print("Buenas noches Marceluki")
+            
+saludador_3()
+
+Dime que hora es: 25
+Hora erronea
